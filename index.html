@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Which track should I choose?</title>
+  </head>
+  <body>
+
+  	<section class="header">
+  		<div class="container">
+  			<h1>Epicodus - Curriculum and Tracks </h1>
+  			<h3>Which track should I take?</h3>
+  			<img src="images/code1.jpg" alt="Code on Screen" width="600">
+  		</div>
+  	</section>
+
+  	<section class="preface">
+  		<div class="container">
+  			<h4>Taking that first step...</h4>
+  			<p>To begin, congrats on considering Epicodus as the next step in your education. Having been in a similar position, I know what it feels like to step into a whole new field, and you're unsure about which type of subject you want to study.</p>
+  			<p>But before we take a look at each track available, let me just say, one of the best parts about Epicodus, is that our tracks are unique in how they are handled. Each track combines real-world web and software coding concepts, and hands-on development projects, to help you better understand how to create fully-functioning applications.</p>
+  			<p>Once you have completed your track, you will receive a nationally-recognized certification from Epicodus identifying your completion of the program. From there, we'll help you get set up for success as we help you search for, and interview for your first coding job.</p>
+  		</div>
+  	</section>
+
+  	<section class="tracks">
+  		<div class="container">
+  			<h4>What are my choices?</h4>
+  			<p>With Epicodus, we offer three specially-created learning tracks. Each are designed to equip you to handle working on a vast array of projects including:</p>
+  			<ul class="list">
+  				<li>Mobile App Development</li>
+  				<li>Front/Back-End Software Engineering</li>
+  				<li>Web Application/Framework Development</li>
+  			</ul>
+  			<p>Here are just some of the languages you can choose to learn more as part of our program...</p>
+  			<p><span style="font-weight:600; font-size: 20px;">C#</span><br><br><a href="#">C#</a> is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
+  			<p><span style="font-weight:600; font-size: 20px;">JAVA</span><br><br><a href="#">Java</a> is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.</p>
+  			<p><span style="font-weight:600; font-size: 20px;">PHP</span><br><br><a href="#">PHP</a> is by far the most popular backend language today, with 80 percent of websites utilizing it 'server-side'. It is perhaps best known for it's use in content management systems like Wordpress, Drupal, and Joomla. But the versatility of the language and the frameworks it powers make employment options numerous and diverse. If you're keen to work for a fast paced agency that builds websites for lots of clients, or maintain the security and stability of a huge complex of government websites, or if you like the idea of building out small sites for brands, businesses, and organizations - In any of these cases, PHP would be a great way to go.</p>
+  			<p><span style="font-weight:600; font-size: 20px;">RUBY</span><br><br><a href="#">Ruby</a> is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
+  			<p>Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.</p>
+  		</div>
+  	</section>
+
+  	<section class="quiz">
+  		<div class="container">
+  			<h4>How do I decide which one is right for me?</h4>
+  			<p>Still don't quite know which track you want to take? No problem! Let's figure it out together based on your interests, using the survey below...</p>
+  			<form id="survey">
+  				<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 1:</h5>
+        				<label for="question1">What made you interested in programming in the first place?</label>
+        				<br>
+        				<select id="question1">
+        					<option value="problems">I like to solve complex problems</option>
+          					<option value="new">I want to be involved in the next new piece of technology</option>
+          					<option value="front">I love putting out my work out online for everyone to see</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 2:</h5>
+        				<label for="question2">What device(s) do you find you often use daily?</label>
+        				<br>
+        				<select id="question2">
+        					<option value="desktop">Desktop Computer (Mac/PC)</option>
+          					<option value="laptop">Laptop (PC/MacBook)</option>
+          					<option value="tablet">Tablet (iPad/Android Tablet)</option>
+          					<option value="smartphone">Smartphone (iPhone/Samsung/Android)</option>
+          					<option value="games">Gaming consoles (Nintendo/PlayStation/XBOX)</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 3:</h5>
+        				<label for="question3">How comfortable are you in learning a new language?</label>
+        				<br>
+        				<select id="question3">
+        					<option value="vc">Very comfortable</option>
+        					<option value="com">Comfortable</option>
+          					<option value="sc">Somewhat comfortable</option>
+          					<option value="not">Not as comfortable</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 4:</h5>
+        				<label for="question4">Have you had prior exposure to coding in one way or another?</label>
+        				<br>
+        				<select id="question4">
+        					<option value="yes">Yes</option>
+          					<option value="no">No</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 5:</h5>
+        				<label for="question5">What do you want to do as a programmer?</label>
+        				<br>
+        				<select id="question5">
+        					<option value="develop">I want develop software and their internal framework</option>
+          					<option value="apps">I want to create mobile apps and design how they look</option>
+          					<option value="support">I want to improve features on the web that everyone uses</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 6:</h5>
+        				<label for="question6">How comfortable are you in handling multiple projects at one time?</label>
+        				<br>
+        				<select id="question6">
+        					<option value="vc">Very comfortable</option>
+        					<option value="com">Comfortable</option>
+          					<option value="sc">Somewhat comfortable</option>
+          					<option value="not">Not as comfortable</option>
+          				</select>
+        			</div>
+        		</div>
+        		<button type="submit" class="btn btn-info">Submit my answers</button>
+  			</form>
+  			<hr>
+  			<div id="answer">
+        		<h4>Based on your survey answers, the track best fit for you would be: <span id="result" style="font-size: 28px; font-weight: 600;"></span>.</h4>
+        	</div>
+        	<div id="description">
+        		<p id="desc1">As you participate in the C#/.NET track, you'll be able to take on working with bigger companies, and handling more enterprise-level software work with today's most used features.</p>
+        		<p id="desc2">Through the CSS/React track, you'll grow much more familiar with the creation/implementation of mobile-app assets, as well as designing app frameworks for building fully-functioning apps for iOS/Android..</p>
+        		<p id="desc3">Under the Ruby/Rails track, you'll be set to build and maintain web applications and frameworks used by anyone online. This will be handy if you have prior knowledge of responsive web design.</p>
+        		<button type="submit" class="btn btn-info" id="link">Learn more</button>
+      		</div>
+  		</div>
+  	</section>
+
+
+  </body>
+</html>

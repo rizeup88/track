@@ -1,0 +1,56 @@
+html body {
+	background-image: url(../images/bkgd1.jpg);
+	background-size: cover;
+	font-family: "Roboto";
+}
+
+h3 {
+	margin-top: 1em;
+}
+
+h5 {
+	margin-top: 1em;
+}
+
+p  {
+	margin-top: 1em;
+}
+
+.header .container {
+	background-color: #E3E3E3;
+	padding: 2em;
+}
+
+.preface .container {
+	background-color: #E3E3E3;
+	padding: 2em;
+}
+
+.tracks .container {
+	background-color: #E3E3E3;
+	padding: 2em;
+}
+
+.quiz .container {
+	background-color: #E3E3E3;
+	padding: 2em;
+}
+
+.btn {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#answer {
+	margin-top: 2em;
+	display: none;
+}
+
+#desc1, #desc2, #desc3 {
+	display: none;
+	margin-bottom: 2em;
+}
+
+.btn#link {
+	display: none;
+}
