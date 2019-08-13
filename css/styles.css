@@ -54,3 +54,8 @@ p  {
 .btn#link {
 	display: none;
 }
+
+.classes {
+	font-size: 20px;
+	font-weight: 600;
+}
